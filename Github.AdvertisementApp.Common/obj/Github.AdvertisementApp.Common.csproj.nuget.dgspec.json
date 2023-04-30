@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {}
+    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {}
   },
   "projects": {
-    "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {
+    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
+        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
         "projectName": "Github.AdvertisementApp.Common",
-        "projectPath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
+        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Common\\obj\\",
+        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {}
+    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {
+    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
         "projectName": "Github.AdvertisementApp.DataAccess",
-        "projectPath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
-                "projectPath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj"
+              "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
+    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
         "projectName": "Github.AdvertisementApp.Entities",
-        "projectPath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
+        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Entities\\obj\\",
+        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

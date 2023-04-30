@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FwOt/h9vS22+M+qrdaatpAaDlFQ4VVH83Kt8medMaeRESkH5zokB2qcZ8zbuOg+2GDJdPsRy/o3JBSJtIFyTcA==",
+  "dgSpecHash": "MFBBpgdYnvScr85O4zBNvxH0/AJAbh64PHNF+1Po6hj4uAfpO24gRCnKNG2F/I0OUvSBaaqIixyDuofieW2TkQ==",
   "success": true,
-  "projectFilePath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
+  "projectFilePath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

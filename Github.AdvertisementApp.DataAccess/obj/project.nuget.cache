@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HFGEMzQqKudBPOWwvBYy1R9PQpmv5zAoX8EDPNOw4kXLN3ofkm+yUbWmiQm4tozWS9eIPD2s/X8lkL6pEqCIiA==",
+  "dgSpecHash": "ke9fGCIzMtn8gnmx3Ije2HP8daQ/gTXJM7KxQwTDytoe0BE5dx7ik1zIHIggXkz7iDA4puVjlOf5nuHI/SHADg==",
   "success": true,
-  "projectFilePath": "D:\\net-core-projeler\\Github.AdvertisementApp\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duhan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
