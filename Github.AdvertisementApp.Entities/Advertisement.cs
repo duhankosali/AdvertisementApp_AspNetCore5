@@ -11,7 +11,7 @@ namespace Github.AdvertisementApp.Entities
         public string Title { get; set; }
         public bool Status { get; set; }
         public string Description { get; set; }
-        public DateTime CreatedTime { get; set; }
+        public DateTime CreatedDate { get; set; }
 
         public List<AdvertisementAppUser> AdvertisementAppUsers { get; set; } // Bir ilana birden fazla kullanıcı başvuru yapabilir.
     }
