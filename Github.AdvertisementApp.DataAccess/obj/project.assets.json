@@ -1520,6 +1520,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Github.AdvertisementApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Github.AdvertisementApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Github.AdvertisementApp.Common.dll": {}
+        }
+      },
       "Github.AdvertisementApp.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5798,6 +5808,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Github.AdvertisementApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../Github.AdvertisementApp.Common/Github.AdvertisementApp.Common.csproj",
+      "msbuildProject": "../Github.AdvertisementApp.Common/Github.AdvertisementApp.Common.csproj"
+    },
     "Github.AdvertisementApp.Entities/1.0.0": {
       "type": "project",
       "path": "../Github.AdvertisementApp.Entities/Github.AdvertisementApp.Entities.csproj",
@@ -5806,6 +5821,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Github.AdvertisementApp.Common >= 1.0.0",
       "Github.AdvertisementApp.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7",
@@ -5839,6 +5855,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {
+              "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj"
+            },
             "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
               "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj"
             }

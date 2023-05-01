@@ -17,7 +17,7 @@ namespace Github.AdvertisementApp.DataAccess.Configurations
 
             // AppUser ile Gender arasındaki ilişkiyi "AppUserConfiguration.cs" 'de kurduk bu nedenle tekrardan yapmamızı ihtiyaç yok.
 
-            builder.Property(x => x.Definition).HasMaxLength(300);
+            builder.Property(x => x.Definition).HasMaxLength(300).IsRequired();
 
             
         }
