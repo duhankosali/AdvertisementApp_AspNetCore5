@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Github.AdvertisementApp.Entities
 {
-    public class AppUserRole
+    public class AppUserRole : BaseEntity
     {
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }

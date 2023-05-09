@@ -1,0 +1,12 @@
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\bin\Debug\net5.0\Github.AdvertisementApp.Common.deps.json
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\bin\Debug\net5.0\Github.AdvertisementApp.Common.dll
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\bin\Debug\net5.0\Github.AdvertisementApp.Common.pdb
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.csproj.AssemblyReference.cache
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.AssemblyInfoInputs.cache
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.AssemblyInfo.cs
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.dll
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\refint\Github.AdvertisementApp.Common.dll
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.pdb
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\ref\Github.AdvertisementApp.Common.dll

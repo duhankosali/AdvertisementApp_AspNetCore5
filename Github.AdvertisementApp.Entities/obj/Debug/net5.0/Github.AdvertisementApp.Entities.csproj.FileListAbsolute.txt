@@ -1,0 +1,12 @@
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\bin\Debug\net5.0\Github.AdvertisementApp.Entities.deps.json
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\bin\Debug\net5.0\Github.AdvertisementApp.Entities.dll
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\bin\Debug\net5.0\Github.AdvertisementApp.Entities.pdb
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\Github.AdvertisementApp.Entities.csproj.AssemblyReference.cache
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\Github.AdvertisementApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\Github.AdvertisementApp.Entities.AssemblyInfoInputs.cache
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\Github.AdvertisementApp.Entities.AssemblyInfo.cs
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\Github.AdvertisementApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\Github.AdvertisementApp.Entities.dll
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\refint\Github.AdvertisementApp.Entities.dll
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\Github.AdvertisementApp.Entities.pdb
+C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Entities\obj\Debug\net5.0\ref\Github.AdvertisementApp.Entities.dll
