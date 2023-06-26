@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Github.AdvertisementApp.Dtos.ProviderServiceDtos;
+using Github.AdvertisementApp.Dtos;
 using Github.AdvertisementApp.Entities;
 using System;
 using System.Collections.Generic;

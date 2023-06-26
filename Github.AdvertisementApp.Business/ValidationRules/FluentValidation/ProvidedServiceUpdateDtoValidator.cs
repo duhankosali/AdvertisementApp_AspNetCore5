@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using Github.AdvertisementApp.Dtos.ProviderServiceDtos;
+using Github.AdvertisementApp.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

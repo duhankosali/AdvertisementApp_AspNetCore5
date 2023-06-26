@@ -131,3 +131,16 @@ D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.pdb
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.genruntimeconfig.cache
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\ref\Github.AdvertisementApp.UI.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\bin\Debug\net5.0\Github.AdvertisementApp.UI.Views.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\bin\Debug\net5.0\Github.AdvertisementApp.UI.Views.pdb
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.RazorAssemblyInfo.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.RazorAssemblyInfo.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.TagHelpers.input.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.TagHelpers.output.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.RazorCoreGenerate.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.RazorTargetAssemblyInfo.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Github.AdvertisementApp.UI.Views.pdb
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Home\HumanResource.cshtml.g.cs

@@ -39,7 +39,7 @@ namespace Github.AdvertisementApp.UI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles(); // To open wwwroot.
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

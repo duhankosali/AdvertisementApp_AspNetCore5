@@ -6,7 +6,7 @@ using Github.AdvertisementApp.Business.Services;
 using Github.AdvertisementApp.Business.ValidationRules.FluentValidation;
 using Github.AdvertisementApp.DataAccess.Contexts;
 using Github.AdvertisementApp.DataAccess.UnitOfWork;
-using Github.AdvertisementApp.Dtos.ProviderServiceDtos;
+using Github.AdvertisementApp.Dtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

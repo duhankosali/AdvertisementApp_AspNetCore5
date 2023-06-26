@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Github.AdvertisementApp.Dtos.ProviderServiceDtos
+namespace Github.AdvertisementApp.Dtos
 {
     public class ProvidedServiceListDto : IDto
     {

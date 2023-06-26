@@ -1,4 +1,5 @@
 ﻿using Github.AdvertisementApp.Business.Interfaces;
+using Github.AdvertisementApp.UI.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -14,6 +15,10 @@ namespace Github.AdvertisementApp.UI.Controllers
         public async Task<IActionResult> Index()
         {
             var response = await _providedServiceService.GetAllAsync();
+            return this.ResponseView(response);
+        }
+        public IActionResult HumanResource()
+        {
             return View();
         }
     }
