@@ -1,0 +1,12 @@
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\bin\Debug\net5.0\Github.AdvertisementApp.Dtos.deps.json
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\bin\Debug\net5.0\Github.AdvertisementApp.Dtos.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\bin\Debug\net5.0\Github.AdvertisementApp.Dtos.pdb
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\Github.AdvertisementApp.Dtos.csproj.AssemblyReference.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\Github.AdvertisementApp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\Github.AdvertisementApp.Dtos.AssemblyInfoInputs.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\Github.AdvertisementApp.Dtos.AssemblyInfo.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\Github.AdvertisementApp.Dtos.csproj.CoreCompileInputs.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\Github.AdvertisementApp.Dtos.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\refint\Github.AdvertisementApp.Dtos.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\Github.AdvertisementApp.Dtos.pdb
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Dtos\obj\Debug\net5.0\ref\Github.AdvertisementApp.Dtos.dll

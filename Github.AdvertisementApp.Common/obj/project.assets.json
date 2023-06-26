@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
+      "projectUniqueName": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
       "projectName": "Github.AdvertisementApp.Common",
-      "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
+      "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
       "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\obj\\",
+      "outputPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

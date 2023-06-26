@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj": {}
+    "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj": {
+    "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj",
+        "projectUniqueName": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj",
         "projectName": "Github.AdvertisementApp.Business",
-        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj",
+        "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\obj\\",
+        "outputPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj"
+              "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {
+                "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj"
+              },
+              "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Dtos\\Github.AdvertisementApp.Dtos.csproj": {
+                "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Dtos\\Github.AdvertisementApp.Dtos.csproj"
               }
             }
           }
@@ -44,6 +47,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -68,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {
+    "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
+        "projectUniqueName": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
         "projectName": "Github.AdvertisementApp.Common",
-        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
+        "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\obj\\",
+        "outputPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -122,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {
+    "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
+        "projectUniqueName": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
         "projectName": "Github.AdvertisementApp.DataAccess",
-        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
+        "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\Github.AdvertisementApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\obj\\",
+        "outputPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,11 +161,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {
-                "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj"
+              "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj": {
+                "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Common\\Github.AdvertisementApp.Common.csproj"
               },
-              "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
-                "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj"
+              "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
+                "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj"
               }
             }
           }
@@ -199,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
+    "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Dtos\\Github.AdvertisementApp.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
-        "projectName": "Github.AdvertisementApp.Entities",
-        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
+        "projectUniqueName": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Dtos\\Github.AdvertisementApp.Dtos.csproj",
+        "projectName": "Github.AdvertisementApp.Dtos",
+        "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Dtos\\Github.AdvertisementApp.Dtos.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\obj\\",
+        "outputPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,14 +268,68 @@
         }
       }
     },
-    "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj": {
+    "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj",
-        "projectName": "Github.AdvertisementApp.UI",
-        "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj",
+        "projectUniqueName": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
+        "projectName": "Github.AdvertisementApp.Entities",
+        "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\Github.AdvertisementApp.Entities.csproj",
         "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\obj\\",
+        "outputPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj",
+        "projectName": "Github.AdvertisementApp.UI",
+        "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj",
+        "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -277,8 +346,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj": {
-                "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj"
+              "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj": {
+                "projectPath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj"
               }
             }
           }

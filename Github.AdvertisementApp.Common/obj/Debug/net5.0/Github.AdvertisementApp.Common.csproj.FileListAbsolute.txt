@@ -10,3 +10,15 @@ C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.Advertisemen
 C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\refint\Github.AdvertisementApp.Common.dll
 C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.pdb
 C:\Users\duhan\Documents\GitHub\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\ref\Github.AdvertisementApp.Common.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\bin\Debug\net5.0\Github.AdvertisementApp.Common.deps.json
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\bin\Debug\net5.0\Github.AdvertisementApp.Common.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\bin\Debug\net5.0\Github.AdvertisementApp.Common.pdb
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.csproj.AssemblyReference.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.AssemblyInfoInputs.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.AssemblyInfo.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.csproj.CoreCompileInputs.cache
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\refint\Github.AdvertisementApp.Common.dll
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\Github.AdvertisementApp.Common.pdb
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.Common\obj\Debug\net5.0\ref\Github.AdvertisementApp.Common.dll

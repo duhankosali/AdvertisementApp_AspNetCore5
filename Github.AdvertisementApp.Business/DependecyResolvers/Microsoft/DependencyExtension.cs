@@ -1,4 +1,12 @@
-﻿using Github.AdvertisementApp.DataAccess.Contexts;
+﻿using AutoMapper;
+using FluentValidation;
+using Github.AdvertisementApp.Business.Interfaces;
+using Github.AdvertisementApp.Business.Mappings.AutoMapper;
+using Github.AdvertisementApp.Business.Services;
+using Github.AdvertisementApp.Business.ValidationRules.FluentValidation;
+using Github.AdvertisementApp.DataAccess.Contexts;
+using Github.AdvertisementApp.DataAccess.UnitOfWork;
+using Github.AdvertisementApp.Dtos.ProviderServiceDtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,6 +28,22 @@ namespace Github.AdvertisementApp.Business.DependecyResolvers.Microsoft
             {
                 opt.UseSqlServer(configuration.GetConnectionString("Local")); // appsettings.json'da bulunan "Local" isimli json data'nın ConnectionString değerini çekiyorum.
             });
+
+            var mapperConfiguration = new MapperConfiguration(opt =>
+            {
+                opt.AddProfile(new ProvidedServiceProfile());
+                //opt.AddProfile();
+            });
+
+            var mapper = mapperConfiguration.CreateMapper();
+            services.AddSingleton(mapper);
+
+            services.AddScoped<IUow, Uow>(); // IUow gördüğünde bana bir Uow ver.
+
+            services.AddTransient<IValidator<ProvidedServiceCreateDto>, ProvidedServiceCreateDtoValidator>();
+            services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
+
+            services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
         }
     }
 }

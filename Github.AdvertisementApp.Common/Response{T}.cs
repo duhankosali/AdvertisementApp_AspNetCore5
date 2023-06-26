@@ -20,7 +20,7 @@ namespace Github.AdvertisementApp.Common
             Data = data;
         }
 
-        public Response(ResponseType responseType, T data, List<CustomValidationError> errors):base(ResponseType.ValidationError)
+        public Response(T data, List<CustomValidationError> errors):base(ResponseType.ValidationError)
         {
             ValidationErrors = errors;
             Data = data;

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xZMD+NNWq2QpTwpTb7imoqMdqxsVz9t9utgsTIZ08B62xYg+rOU5Z5ARkdw87PWotEx2ozUUuKtlVfbS3CSG7Q==",
+  "dgSpecHash": "5sFMnthSqXYKfiAJdCNIAUgGH4KZqJqPX/IK2QkWQTjsHbApU5iOlAC4hVFfYWhULMq+4VD0SvLWe2A3dp4lrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj",
+  "projectFilePath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.UI\\Github.AdvertisementApp.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\duhan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

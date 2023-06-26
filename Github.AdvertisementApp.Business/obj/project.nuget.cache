@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "u/61tBkltHiPgVNbXO2mc8/dKGhZ5eLIWiyqgg9H96orhclQJcdhzpp4LZXC5g7UafP/bEWYRQeMfvQc6K8ESQ==",
+  "dgSpecHash": "FrUPnIo4CsqbsjpcSTpORmlHuJL3bREuRMJx3ccGilrPNCJ8WBoI0PfSdtIiOs49sQUyf7TlgLtjJlbGQkt8+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\duhan\\Documents\\GitHub\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj",
+  "projectFilePath": "D:\\Github\\AdvertisementApp_AspNetCore5\\Github.AdvertisementApp.Business\\Github.AdvertisementApp.Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
+    "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
