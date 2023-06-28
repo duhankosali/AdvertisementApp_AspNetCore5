@@ -34,6 +34,8 @@ namespace Github.AdvertisementApp.Business.DependecyResolvers.Microsoft
             {
                 opt.AddProfile(new ProvidedServiceProfile());
                 opt.AddProfile(new AdvertisementProfile());
+                opt.AddProfile(new AppUserProfile());
+                opt.AddProfile(new GenderProfile());
             });
 
             var mapper = mapperConfiguration.CreateMapper();
@@ -48,10 +50,17 @@ namespace Github.AdvertisementApp.Business.DependecyResolvers.Microsoft
             services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
             services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
 
+            services.AddTransient<IValidator<AppUserCreateDto>, AppUserCreateDtoValidator>();
+            services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateDtoValidator>();
+
+            services.AddTransient<IValidator<GenderCreateDto>, GenderCreateValidator>();
+            services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateValidator>();
 
             // Services operations
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();
+            services.AddScoped<IAppUserService, AppUserService>();
+            services.AddScoped<IGenderService, GenderService>();
         }
     }
 }
