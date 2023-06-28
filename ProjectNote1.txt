@@ -1,0 +1,30 @@
+Dto Oluştur
+
+Dto Validator oluştur
+
+Bu validatorları extensionlara kaydet
+
+Daha sonra Map Profile oluştur
+
+Bunu Extension'a kaydet
+
+İlgili servisi ve interface'i yaz
+
+UI da kullan
+
+1) Dto katmanında: AdvertisementListDto.cs, AdvertisementCreateDto.cs, AdvertisementUpdateDto.cs 
+dosyalarımız oluşturuldu, Şimdi business katmanında Validation Rules kısmına geçiyoruz.
+
+2) AdvertisementCreateDtoValidator.cs, AdvertisementUpdateDtoValidator.cs oluşturuldu ve AbstractValidator'dan kalıtıldı. (AbstractValidator, FluentValidation'un sunduğu bir class)
+
+3) Business'da bulunan DependencyResolvers.cs dosyasından ilgili Extensionları kaydediyoruz. (AddTransient işlemi)
+
+4) Business'da bulunan Mappings'e geldik ve buraya AdvertisementProfile oluşturduk. (AutoMapper kullanıyoruz)
+ 
+5) Tekrardan DependencyResolves.cs'e geldik ve burada oluşturduğumuz AdvertisementProfile.cs dosyasının konfigürasyonunu yaptık (mapperConfiguration, AddProfile())
+
+6) Business'da bulunan Interfaces'e geliyoruz ve IAdvertisementService.cs interface dosyamızı oluşturuyoruz. (Bu dosya IService.cs'den kalıtım alır)
+
+7) Bu sever de Services'e gidiyoruz ve AdvertisementService.cs oluşturuyoruz. Bu class Service'den kalıtım alıyor ve bir takım kendi geliştirmemizi yapıyoruz.
+
+8) Daha sonra DependencyResolves.cs'den tekrar Extension işlemi yapıyoruz.
