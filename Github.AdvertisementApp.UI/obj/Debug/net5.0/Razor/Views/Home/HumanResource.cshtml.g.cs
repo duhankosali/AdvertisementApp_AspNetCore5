@@ -19,8 +19,15 @@ using Github.AdvertisementApp.Dtos;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\Views\_ViewImports.cshtml"
+using Github.AdvertisementApp.UI.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0ab4148e3f997a36a36c762f43ed49cf66907187", @"/Views/Home/HumanResource.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3df3d508f9a9c7299a482297496b2038cdcaa03f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2bf0b35737bd42a08882dc0add5822475fed838d", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_HumanResource : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<AdvertisementListDto>>
     #nullable disable

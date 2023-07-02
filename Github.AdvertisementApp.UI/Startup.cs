@@ -1,4 +1,7 @@
+using FluentValidation;
 using Github.AdvertisementApp.Business.DependecyResolvers.Microsoft;
+using Github.AdvertisementApp.UI.Models;
+using Github.AdvertisementApp.UI.ValidationRules;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -29,6 +32,7 @@ namespace Github.AdvertisementApp.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDependencies(Configuration);
+            services.AddTransient<IValidator<UserCreateModel>, UserCreateModelValidator>(); // Validation Rules
             services.AddControllersWithViews();
         }
 

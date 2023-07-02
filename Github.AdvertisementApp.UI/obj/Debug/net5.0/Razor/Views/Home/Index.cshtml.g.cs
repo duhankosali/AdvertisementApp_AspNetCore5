@@ -19,8 +19,15 @@ using Github.AdvertisementApp.Dtos;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\Views\_ViewImports.cshtml"
+using Github.AdvertisementApp.UI.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4b4a510eb14a633a5aa9da02c0788b3ab00520cf", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3df3d508f9a9c7299a482297496b2038cdcaa03f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2bf0b35737bd42a08882dc0add5822475fed838d", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ProvidedServiceListDto>>
     #nullable disable
@@ -95,7 +102,7 @@ WriteAttributeValue(" ", 1108, i%2==0?"order-lg-2":"", 1109, 25, false);
             WriteAttributeValue(" ", 1134, "", 1135, 1, true);
             EndWriteAttribute();
             WriteLiteral(">\r\n                    <div class=\"p-5\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4b4a510eb14a633a5aa9da02c0788b3ab00520cf5613", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4b4a510eb14a633a5aa9da02c0788b3ab00520cf5827", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
