@@ -1,5 +1,8 @@
+using AutoMapper;
 using FluentValidation;
 using Github.AdvertisementApp.Business.DependecyResolvers.Microsoft;
+using Github.AdvertisementApp.Business.Helpers;
+using Github.AdvertisementApp.UI.Mappings.AutoMapper;
 using Github.AdvertisementApp.UI.Models;
 using Github.AdvertisementApp.UI.ValidationRules;
 using Microsoft.AspNetCore.Builder;
@@ -34,6 +37,18 @@ namespace Github.AdvertisementApp.UI
             services.AddDependencies(Configuration);
             services.AddTransient<IValidator<UserCreateModel>, UserCreateModelValidator>(); // Validation Rules
             services.AddControllersWithViews();
+
+            var profiles = ProfileHelper.GetProfiles();
+
+            profiles.Add(new UserCreateModelProfile());
+
+            var configuration = new MapperConfiguration(opt =>
+            {
+                opt.AddProfiles(profiles);
+            });
+
+            var mapper = configuration.CreateMapper();
+            services.AddSingleton(mapper);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

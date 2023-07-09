@@ -29,18 +29,6 @@ namespace Github.AdvertisementApp.Business.DependecyResolvers.Microsoft
                 opt.UseSqlServer(configuration.GetConnectionString("Local")); // appsettings.json'da bulunan "Local" isimli json data'nın ConnectionString değerini çekiyorum.
             });
 
-            // Auto Mapper configurations
-            var mapperConfiguration = new MapperConfiguration(opt =>
-            {
-                opt.AddProfile(new ProvidedServiceProfile());
-                opt.AddProfile(new AdvertisementProfile());
-                opt.AddProfile(new AppUserProfile());
-                opt.AddProfile(new GenderProfile());
-            });
-
-            var mapper = mapperConfiguration.CreateMapper();
-            services.AddSingleton(mapper);
-
             services.AddScoped<IUow, Uow>(); // IUow gördüğünde bana bir Uow ver.
 
             // Fluent Validation operations

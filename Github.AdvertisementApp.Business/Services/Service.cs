@@ -40,6 +40,7 @@ namespace Github.AdvertisementApp.Business.Services
             {
                 var createdEntity = _mapper.Map<T>(dto);
                 await _uow.GetRepository<T>().CreateAsync(createdEntity);
+                await _uow.SaveChangesAsync();
                 return new Response<CreateDto>(ResponseType.Success, dto);
             }
             return new Response<CreateDto>(dto, result.ConvertToCustomValidationError());
@@ -67,6 +68,7 @@ namespace Github.AdvertisementApp.Business.Services
             if(data == null)
                 return new Response<IDto>(ResponseType.NotFound, $"Data with ID {id} could not be found.");
             _uow.GetRepository<T>().Remove(data);
+            await _uow.SaveChangesAsync();
             return new Response(ResponseType.Success);
         }
 
@@ -80,6 +82,7 @@ namespace Github.AdvertisementApp.Business.Services
                     return new Response<UpdateDto>(ResponseType.NotFound, $"Data with ID {dto.Id} could not be found.");
                 var entity = _mapper.Map<T>(data);
                 _uow.GetRepository<T>().Update(entity, data);
+                await _uow.SaveChangesAsync();
                 return new Response<UpdateDto>(ResponseType.Success, dto);
             }
             return new Response<UpdateDto>(dto, result.ConvertToCustomValidationError());
