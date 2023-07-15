@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FluentValidation;
 using Github.AdvertisementApp.Business.Interfaces;
+using Github.AdvertisementApp.Common.Enums;
 using Github.AdvertisementApp.Dtos;
 using Github.AdvertisementApp.UI.Extensions;
 using Github.AdvertisementApp.UI.Models;
@@ -40,9 +41,8 @@ namespace Github.AdvertisementApp.UI.Controllers
             if (result.IsValid)
             {
                 var dto = _mapper.Map<AppUserCreateDto>(model);
-                var createResponse = await _appUserService.CreateAsync(dto);
-                return this.ResponseRedirectAction(createResponse, "SignIn");
-                return View(model);
+                var createResponse = await _appUserService.CreateWithRoleAsync(dto,(int)RoleType.Member);  
+                return this.ResponseRedirectAction(createResponse, "SignIn");   
             }
 
             foreach (var error in result.Errors)

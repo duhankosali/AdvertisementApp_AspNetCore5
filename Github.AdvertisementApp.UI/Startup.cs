@@ -5,6 +5,7 @@ using Github.AdvertisementApp.Business.Helpers;
 using Github.AdvertisementApp.UI.Mappings.AutoMapper;
 using Github.AdvertisementApp.UI.Models;
 using Github.AdvertisementApp.UI.ValidationRules;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -36,6 +37,17 @@ namespace Github.AdvertisementApp.UI
         {
             services.AddDependencies(Configuration);
             services.AddTransient<IValidator<UserCreateModel>, UserCreateModelValidator>(); // Validation Rules
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme) // https://learn.microsoft.com/en-us/aspnet/core/security/authentication/cookie?view=aspnetcore-7.0
+            .AddCookie(opt =>
+            {
+                opt.Cookie.Name = "AdvertisementApp.Cookie";
+                opt.Cookie.HttpOnly = true;
+                opt.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
+                opt.Cookie.SecurePolicy = Microsoft.AspNetCore.Http.CookieSecurePolicy.SameAsRequest;
+                opt.ExpireTimeSpan = TimeSpan.FromDays(20);  
+            });
+
             services.AddControllersWithViews();
 
             var profiles = ProfileHelper.GetProfiles();
@@ -60,6 +72,9 @@ namespace Github.AdvertisementApp.UI
             }
             app.UseStaticFiles(); // To open wwwroot.
             app.UseRouting();
+
+            app.UseAuthentication(); // https://learn.microsoft.com/en-us/aspnet/core/security/authentication/cookie?view=aspnetcore-7.0
+            app.UseAuthorization(); // https://learn.microsoft.com/en-us/aspnet/core/security/authentication/cookie?view=aspnetcore-7.0
 
             app.UseEndpoints(endpoints =>
             {
