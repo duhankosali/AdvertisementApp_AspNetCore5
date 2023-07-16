@@ -40,9 +40,12 @@ namespace Github.AdvertisementApp.Business.DependecyResolvers.Microsoft
 
             services.AddTransient<IValidator<AppUserCreateDto>, AppUserCreateDtoValidator>();
             services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateDtoValidator>();
+            services.AddTransient<IValidator<AppUserLoginDto>, AppUserLoginDtoValidator>();
 
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateValidator>();
             services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateValidator>();
+
+
 
             // Services operations
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();

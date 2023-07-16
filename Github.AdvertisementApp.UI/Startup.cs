@@ -45,7 +45,10 @@ namespace Github.AdvertisementApp.UI
                 opt.Cookie.HttpOnly = true;
                 opt.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
                 opt.Cookie.SecurePolicy = Microsoft.AspNetCore.Http.CookieSecurePolicy.SameAsRequest;
-                opt.ExpireTimeSpan = TimeSpan.FromDays(20);  
+                opt.ExpireTimeSpan = TimeSpan.FromDays(20);
+                opt.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/SignIn");
+                opt.LogoutPath = new Microsoft.AspNetCore.Http.PathString("/Account/LogOut");
+                opt.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Account/AccessDenied");
             });
 
             services.AddControllersWithViews();

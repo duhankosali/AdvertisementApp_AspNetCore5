@@ -19,12 +19,14 @@ namespace Github.AdvertisementApp.Business.Services
         private readonly IUow _uow;
         private readonly IMapper _mapper;
         private readonly IValidator<AppUserCreateDto> _createDtoValidator;
-        public AppUserService(IMapper mapper, IValidator<AppUserCreateDto> createDtoValidator, IValidator<AppUserUpdateDto> updateDtoValidator, IUow uow ) 
-            : base(mapper, createDtoValidator, updateDtoValidator, uow) 
+        private readonly IValidator<AppUserLoginDto> _loginDtoValidator;
+        public AppUserService(IMapper mapper, IValidator<AppUserCreateDto> createDtoValidator, IValidator<AppUserUpdateDto> updateDtoValidator, IUow uow, IValidator<AppUserLoginDto> loginDtoValidator)
+            : base(mapper, createDtoValidator, updateDtoValidator, uow)
         {
             _uow = uow;
             _mapper = mapper;
             _createDtoValidator = createDtoValidator;
+            _loginDtoValidator = loginDtoValidator;
         }
 
         public async Task<IResponse<AppUserCreateDto>> CreateWithRoleAsync(AppUserCreateDto dto, int roleId)
@@ -45,6 +47,34 @@ namespace Github.AdvertisementApp.Business.Services
                 return new Response<AppUserCreateDto>(ResponseType.Success, dto);
             }
             return new Response<AppUserCreateDto>(dto, validationResult.ConvertToCustomValidationError()); // istediğim gibi gelmediği durumlarda Extension
+        }
+
+        public async Task<IResponse<AppUserListDto>> CheckUser(AppUserLoginDto dto) // böyle bir user var mı yok mu kontrol et
+        {
+            var validationResult = _loginDtoValidator.Validate(dto);
+            if(validationResult.IsValid)
+            {
+                var user = await _uow.GetRepository<AppUser>().GetByFilter(x => x.Username == dto.Username && x.Password == dto.Password);
+                if(user != null) // eğer böyle bir kullanıcı var ise:
+                {
+                    var appUserDto = _mapper.Map<AppUserListDto>(user);
+                    return new Response<AppUserListDto>(ResponseType.Success, appUserDto);
+                }
+                return new Response<AppUserListDto>(ResponseType.NotFound, "Username or password is wrong.");
+            }
+            return new Response<AppUserListDto>(ResponseType.ValidationError, "Username and password cannot be empty.");
+        }
+
+        public async Task<IResponse<List<AppRoleListDto>>> GetRolesByUserIdAsync(int userId) // Kullanıcı ID'sini kullanarak kullanıcıya ait olan Rolleri liste halinde getir.
+        {
+            var roles = await _uow.GetRepository<AppRole>().GetAllAsync(x => x.AppUserRoles.Any(x => x.AppUserId == userId));
+            if(roles == null)
+            {
+                return new Response<List<AppRoleListDto>>(ResponseType.NotFound, "The relevant role was not found.");
+            }
+            var dto = _mapper.Map<List<AppRoleListDto>>(roles);
+
+            return new Response<List<AppRoleListDto>>(ResponseType.Success, dto);
         }
     }
 }
