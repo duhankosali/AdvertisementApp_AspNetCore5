@@ -18,7 +18,7 @@ namespace Github.AdvertisementApp.Business.Interfaces
     {
         Task<IResponse<CreateDto>> CreateAsync(CreateDto dto);
         Task<IResponse<UpdateDto>> UpdateAsync(UpdateDto dto);
-        Task<IResponse<IDto>> GetByIdAsync(int id);
+        Task<IResponse<IDto>> GetByIdAsync<IDto>(int id);
         Task<IResponse> RemoveAsync(int id);
         Task<IResponse<List<ListDto>>> GetAllAsync();
     }

@@ -98,8 +98,17 @@ namespace Github.AdvertisementApp.UI.Controllers
 
                 return RedirectToAction("Index", "Home");
             }
-            ModelState.AddModelError("", result.Message);
+            ModelState.AddModelError("Username or password is invalid.", result.Message);
             return View(dto);
+        }
+
+        public async Task<IActionResult> LogOut()
+        {
+            // Clear the existing external cookie
+            await HttpContext.SignOutAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme);
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }
