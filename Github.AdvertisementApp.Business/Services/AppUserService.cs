@@ -54,7 +54,7 @@ namespace Github.AdvertisementApp.Business.Services
             var validationResult = _loginDtoValidator.Validate(dto);
             if(validationResult.IsValid)
             {
-                var user = await _uow.GetRepository<AppUser>().GetByFilter(x => x.Username == dto.Username && x.Password == dto.Password);
+                var user = await _uow.GetRepository<AppUser>().GetByFilterAsync(x => x.Username == dto.Username && x.Password == dto.Password);
                 if(user != null) // eğer böyle bir kullanıcı var ise:
                 {
                     var appUserDto = _mapper.Map<AppUserListDto>(user);

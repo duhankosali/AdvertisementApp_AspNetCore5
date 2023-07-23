@@ -6,9 +6,66 @@
     Layout = "_Layout";
 }
 
-<form asp-action="Send" asp-controller="Advertisement" method="POST">
+<form asp-action="Send" asp-controller="Advertisement" method="POST" class="w-75 mx-auto p-3" enctype="multipart/form-data"> @* Eğer dosya yükleme işlemi varsa enctype belirtmemiz gerekiyor. *@
     <input type="hidden" asp-for="@Model.AdvertisementId"/> <!-- Son kullanıcı hangi başvuruyu seçtiyse ID'si bana doğrudan gelecek o yüzden hidden'e aldık. -->
+    <input type="hidden" asp-for="@Model.AppUserId"/>
+
+    @if(ViewBag.GenderId == (int)GenderType.Erkek) @* Eğer erkekse askerlik durumu tarafını görebilmeli. *@
+    {
+        <div class="mb-3">
+            <label>Military Status</label>
+            <select onchange="setInputVisibility()" asp-for="@Model.MilitaryStatusId" asp-items="@ViewBag.MilitaryStatus" class="form-select"></select>
+        </div>
+
+        <div id="dateDiv" class="mb-3" style="display:none">
+            <label>Tecil Tarihi</label>
+            <input type="date" asp-for="@Model.EndDate" class="form-control"/>
+        </div>
+    }
+    else 
+    {
+        <input type="hidden" asp-for="@Model.MilitaryStatusId" value="@((int)MilitaryStatusType.Exempted)"/> @* Eğer kadınsa doğrudan muaf *@
+    }
+    
     <div class="mb-3">
-        
+        <label>Your work experience (How many years)</label>
+        <input type="number" asp-for="@Model.WorkExperience"/>
     </div>
+
+    <div class="mb-3">
+        <label>Upload your CV File</label>
+        <input type="file" asp-for="@Model.CvFile" class="form-control"/>
+    </div>
+
+    <div asp-validation-summary="All" class="text-danger">
+
+
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary"></button>
+    </div>
+
+   
 </form>
+
+@section script { <!-- _Layout.cshtml 'deki RenderSection'ın kullanımı -->
+    <script>
+        setInputVisibility();
+        function setInputVisibility()
+        {
+            var selectElement = document.getElementById("MilitaryStatusId");
+            var militaryStatusId = selectElement.value;
+
+            var dateDivElement = document.getElementById("dateDiv");
+            if(militaryStatusId == 2) // Military Status tecilli ise "visible"
+            {
+                dateDivElement.style.display = "block";
+            }
+            else // Muaf veya yapıldı ise tarih göstermeye gerek yok.
+            {
+                dateDivElement.style.display = "none";
+            }
+        }
+    </script>
+}

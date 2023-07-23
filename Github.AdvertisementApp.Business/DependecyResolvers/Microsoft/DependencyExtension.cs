@@ -45,6 +45,7 @@ namespace Github.AdvertisementApp.Business.DependecyResolvers.Microsoft
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateValidator>();
             services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateValidator>();
 
+            services.AddTransient<IValidator<AdvertisementAppUserCreateDto>, AdvertisementAppUserCreateDtoValidator>();
 
 
             // Services operations
@@ -52,6 +53,7 @@ namespace Github.AdvertisementApp.Business.DependecyResolvers.Microsoft
             services.AddScoped<IAdvertisementService, AdvertisementService>();
             services.AddScoped<IAppUserService, AppUserService>();
             services.AddScoped<IGenderService, GenderService>();
+            services.AddScoped<IAdvertisementAppUserService, AdvertisementAppUserService>();
         }
     }
 }

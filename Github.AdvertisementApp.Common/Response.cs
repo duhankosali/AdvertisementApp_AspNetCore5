@@ -27,7 +27,7 @@ namespace Github.AdvertisementApp.Common
     {
         Success,
         ValidationError,
-        NotFound
+        NotFound,
     }
 //C# gibi birçok programlama dilinde, Enumerations (kısaltması Enum) adı verilen bir veri türü bulunur. Enum, belirli sabit değerler kümesine atanmış bir adlandırma öğesidir.
 

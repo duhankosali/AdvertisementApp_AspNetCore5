@@ -20,7 +20,7 @@ namespace Github.AdvertisementApp.DataAccess.Interfaces
 
         // Find methods
         Task<T> FindAsync(object id);
-        Task<T> GetByFilter(Expression<Func<T, bool>> filter, bool asNoTracking = false);
+        Task<T> GetByFilterAsync(Expression<Func<T, bool>> filter, bool asNoTracking = false);
         IQueryable<T> GetQuery();
         // Remove method
         void Remove(T Entity);

@@ -55,7 +55,7 @@ namespace Github.AdvertisementApp.Business.Services
 
         public async Task<IResponse<IDto>> GetByIdAsync<IDto>(int id)
         {
-            var data = await _uow.GetRepository<T>().GetByFilter(x => x.Id == id);
+            var data = await _uow.GetRepository<T>().GetByFilterAsync(x => x.Id == id);
             if (data == null)
                 return new Response<IDto>(ResponseType.NotFound, $"Data with ID {id} could not be found.");
             var dto = _mapper.Map<IDto>(data);

@@ -26,8 +26,15 @@ using Github.AdvertisementApp.UI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\Views\_ViewImports.cshtml"
+using Github.AdvertisementApp.Common.Enums;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0e65b285a79a67be80c2072ca004ec957c9a2f22", @"/Views/Home/HumanResource.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2bf0b35737bd42a08882dc0add5822475fed838d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f81fa65701c675a973a79d4e832b7ae3d6ffe60", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_HumanResource : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<AdvertisementListDto>>
     #nullable disable
@@ -163,7 +170,7 @@ WriteAttributeValue("", 910, Model[i].Id, 910, 12, false);
 #line hidden
 #nullable disable
             WriteLiteral("                               ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e65b285a79a67be80c2072ca004ec957c9a2f228989", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e65b285a79a67be80c2072ca004ec957c9a2f229206", async() => {
                 WriteLiteral("Apply");
             }
             );
@@ -206,7 +213,7 @@ WriteAttributeValue("", 910, Model[i].Id, 910, 12, false);
 #line hidden
 #nullable disable
             WriteLiteral("                               <div class=\"alert alert-light text-center lead\">\r\n                                   You must be logged in to apply for the relevant posting. ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e65b285a79a67be80c2072ca004ec957c9a2f2211956", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0e65b285a79a67be80c2072ca004ec957c9a2f2212173", async() => {
                 WriteLiteral("Register");
             }
             );
