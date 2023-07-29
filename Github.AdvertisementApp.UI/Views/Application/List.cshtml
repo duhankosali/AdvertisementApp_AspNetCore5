@@ -25,16 +25,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var advertisementAppUser in Model)
+                    @foreach (var advertisement in Model)
                     {
                         <tr>
-                            <td>@advertisementAppUser.Title</td>
-                            <td>@advertisementAppUser.CreatedDate.ToString("dddd, dd MMMM yyyy")</td>
-                            <td>@(advertisementAppUser.Status?"Active":"Deactive")</td>
+                            <td>@advertisement.Title</td>
+                            <td>@advertisement.CreatedDate.ToString("dddd, dd MMMM yyyy")</td>
+                            <td>@(advertisement.Status?"Active":"Deactive")</td>
                             <td>
-                                <a asp-action="Update" asp-controller="Application">Update</a>
+                                <a asp-action="Update" asp-controller="Application" asp-route-id="@advertisement.Id">Update</a>
                                 |
-                                <a asp-action="Remove" asp-controller="Application">Delete</a>
+                                <a asp-action="Remove" asp-controller="Application" asp-route-id="@advertisement.Id">Delete</a>
                             </td>
                         </tr>
                     }

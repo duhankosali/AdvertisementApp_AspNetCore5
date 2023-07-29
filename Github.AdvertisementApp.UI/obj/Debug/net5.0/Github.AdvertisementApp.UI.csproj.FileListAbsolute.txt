@@ -152,3 +152,4 @@ D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Advertisement\RejectedList.cshtml.g.cs
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Application\List.cshtml.g.cs
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Application\Create.cshtml.g.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Application\Update.cshtml.g.cs
