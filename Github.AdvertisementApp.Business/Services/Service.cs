@@ -77,11 +77,11 @@ namespace Github.AdvertisementApp.Business.Services
             var result = _updateDtoValidator.Validate(dto);
             if (result.IsValid)
             {
-                var data = await _uow.GetRepository<T>().FindAsync(dto.Id);
-                if (data == null)
+                var unchangedData = await _uow.GetRepository<T>().FindAsync(dto.Id);
+                if (unchangedData == null)
                     return new Response<UpdateDto>(ResponseType.NotFound, $"Data with ID {dto.Id} could not be found.");
-                var entity = _mapper.Map<T>(data);
-                _uow.GetRepository<T>().Update(entity, data);
+                var entity = _mapper.Map<T>(dto);
+                _uow.GetRepository<T>().Update(entity, unchangedData);
                 await _uow.SaveChangesAsync();
                 return new Response<UpdateDto>(ResponseType.Success, dto);
             }
