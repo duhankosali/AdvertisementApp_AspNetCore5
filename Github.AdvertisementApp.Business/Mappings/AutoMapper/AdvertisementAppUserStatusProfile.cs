@@ -9,13 +9,11 @@ using System.Threading.Tasks;
 
 namespace Github.AdvertisementApp.Business.Mappings.AutoMapper
 {
-    public class AppRoleProfile : Profile
+    public class AdvertisementAppUserStatusProfile : Profile
     {
-        public AppRoleProfile()
+        public AdvertisementAppUserStatusProfile()
         {
-            CreateMap<AppRole, AppRoleListDto>().ReverseMap();
-            CreateMap<AppRole, AppRoleCreateDto>().ReverseMap();
-            CreateMap<AppRole, AppRoleUpdateDto>().ReverseMap();
+            CreateMap<AdvertisementAppUserStatus, AdvertisementAppUserStatusListDto>().ReverseMap();
         }
     }
 }

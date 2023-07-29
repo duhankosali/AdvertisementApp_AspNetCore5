@@ -147,3 +147,4 @@ D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Account\SignUp.cshtml.g.cs
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Account\SignIn.cshtml.g.cs
 D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Advertisement\Send.cshtml.g.cs
+D:\Github\AdvertisementApp_AspNetCore5\Github.AdvertisementApp.UI\obj\Debug\net5.0\Razor\Views\Advertisement\List.cshtml.g.cs

@@ -3,9 +3,11 @@ using FluentValidation;
 using Github.AdvertisementApp.Business.Extensions;
 using Github.AdvertisementApp.Business.Interfaces;
 using Github.AdvertisementApp.Common;
+using Github.AdvertisementApp.Common.Enums;
 using Github.AdvertisementApp.DataAccess.UnitOfWork;
 using Github.AdvertisementApp.Dtos;
 using Github.AdvertisementApp.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,6 +48,28 @@ namespace Github.AdvertisementApp.Business.Services
                 return new Response<AdvertisementAppUserCreateDto>(dto, errors);
             }
             return new Response<AdvertisementAppUserCreateDto>(dto, result.ConvertToCustomValidationError());
+        }
+
+        public async Task<List<AdvertisementAppUserListDto>> GetList(AdvertisementAppUserStatusType type)
+        {
+            var query = _uow.GetRepository<AdvertisementAppUser>().GetQuery();
+
+            var list = await query
+                        .Include(x => x.Advertisement)
+                        .Include(x => x.AdvertisementAppUserStatus)
+                        .Include(x => x.MilitaryStatus)
+                        .Include(x => x.AppUser).ThenInclude(x=>x.Gender)
+                        .Where(x => x.AdvertisementAppUserStatusId == (int)type).ToListAsync();
+
+            return _mapper.Map<List<AdvertisementAppUserListDto>>(list); // AdvertisementAppUser'dan AdvertisementAppUserListDto'ya mapleme işlemi.    
+        }
+
+        public async Task SetStatusAsync(int advertisementAppUserId, AdvertisementAppUserStatusType type)
+        {
+            var query = _uow.GetRepository<AdvertisementAppUser>().GetQuery();
+            var entity = await query.SingleOrDefaultAsync(x => x.Id == advertisementAppUserId);
+            entity.AdvertisementAppUserStatusId = (int)type;
+            await _uow.SaveChangesAsync();
         }
     }
 }

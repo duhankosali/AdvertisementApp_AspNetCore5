@@ -116,5 +116,20 @@ namespace Github.AdvertisementApp.UI.Controllers
             }
             return list;
         }
+
+        // List Page
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> List()
+        {
+            var list = await _advertisementAppUserService.GetList(AdvertisementAppUserStatusType.Applied);
+            return View(list);
+        }
+
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> SetStatus(int advertisementAppUserId, AdvertisementAppUserStatusType type)
+        {
+            await _advertisementAppUserService.SetStatusAsync(advertisementAppUserId, type);
+            return View();
+        }
     }
 }

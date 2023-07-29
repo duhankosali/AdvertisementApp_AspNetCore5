@@ -16,6 +16,7 @@ namespace Github.AdvertisementApp.Business.Mappings.AutoMapper
             CreateMap<AppUser, AppUserListDto>().ReverseMap();
             CreateMap<AppUser, AppUserCreateDto>().ReverseMap();
             CreateMap<AppUser, AppUserUpdateDto>().ReverseMap();
+            CreateMap<AppUser, AppUserLoginDto>().ReverseMap();
         }
     }
 }
